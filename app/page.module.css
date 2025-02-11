@@ -1,0 +1,20 @@
+.page main{
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  background-color: #1c1910;
+}
+
+.page main h1,
+.page main h2{
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vh;
+  color: white;
+}
+

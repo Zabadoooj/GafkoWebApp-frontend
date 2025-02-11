@@ -15,7 +15,7 @@ export const metadata = {
   title: "GafkoWEB 0.0.0a",
   description: "Biggest misstake of all Earth",
 };
-
+ 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
