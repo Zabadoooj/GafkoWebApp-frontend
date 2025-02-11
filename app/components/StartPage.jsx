@@ -1,4 +1,5 @@
 import Image from "next/image";
+import firstplayToggle from './utils';
 import styles from "../page.module.css";
 
 export default function StartPage() {

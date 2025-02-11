@@ -1,19 +1,19 @@
 import styles from "./page.module.css";
 
-import StartPage from './components/start_page';
+import StartPage from './components/StartPage';
+import MainPage from './components/MainPage';
 
 export default function Home() {
-
   let firstplay = true;
 
-  if(firstplay){
-    return (
-    <div className={styles.page}>
-      <StartPage/>
+  const startPlay = () => {
+    firstplay = !firstplay;
+  } 
+
+
+  return(
+    <div>
+      {firstplay ? <StartPage/> : <MainPage/>}
     </div>
   )
-
-  }
-
-  
 }
