@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.1.6",
+    "node-telegram-bot-api": "^0.66.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "telegram": "^2.26.16",
+    "telegram-webapps-types": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7"
   }
 }
