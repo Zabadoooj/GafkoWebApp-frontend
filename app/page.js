@@ -17,6 +17,8 @@ export default function Home() {
           <h1>Гафкошмыг теперь WebApp!</h1>
           <h2>Добро пожаловать</h2>
         </div>
+
+        <button className={styles.playBtn}>Начать играть</button>
       </main>
     </div>
   );
