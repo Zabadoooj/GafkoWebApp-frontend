@@ -17,7 +17,7 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.9vh;
-  color: white;
+  color: var(--tg-theme-text-color);
 }
 
 .logo{
@@ -33,8 +33,9 @@
   width: 100%;
   border-radius: 30px;
 
-  background: #5cd0ed;
-  color: white;
+  /* background: #5cd0ed; */
+  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
   font-size: 20px;
   font-weight: 700;
 }
