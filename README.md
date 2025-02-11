@@ -12,5 +12,4 @@ npm run dev
 
 Гафкошмыг это телеграм тамагочи-бот 
 В данной итерации - веб приложение, использующееся в боте 
-```bash
-@GafkoWebBot```
+[`@GafkoWebBot`] (https://t.me/GafkoWebBot)
