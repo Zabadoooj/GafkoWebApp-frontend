@@ -1,10 +1,18 @@
-// import Image from "next/image";
+import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main>
+          <Image
+            className={styles.logo}
+            src='/logo.png'
+            alt='logo'
+
+            width={256}
+            height={256}
+          />
         <div>
           <h1>Гафкошмыг теперь WebApp!</h1>
           <h2>Добро пожаловать</h2>
