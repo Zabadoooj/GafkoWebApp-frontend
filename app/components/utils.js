@@ -1,5 +1,6 @@
 
 
-export function firstplayToggle(firstplay) {
-    return firstplay = !firstplay;
+export default function firstplayToggle(fp) {
+  firstplay = fp;
+    return firstplay;
   }

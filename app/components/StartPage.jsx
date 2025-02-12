@@ -8,8 +8,8 @@ export default function StartPage() {
           <main>
             <Image
               className={styles.logo}
-              src='/logo.png'
-              alt='logo'
+              src='/icon.png'
+              alt='icon'
 
               width={256}
               height={256}
